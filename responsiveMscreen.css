@@ -1,0 +1,285 @@
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+    /* HEADER */
+    .logo_header i {
+        font-size: 250%;
+        padding-left: 40%;
+    }
+    .enveloppe_header a {
+        font-size: 250%;
+        padding-left: 40%;
+    }
+
+    /* SECTION 1 */
+    .whoami {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .whoami h1 {
+        color: #5BCEFA;
+        font-size: 450%;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .whoami .lower_p {
+        text-align: center;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .whoami .bold_p {
+        font-weight: bold;
+        text-align: center;
+        font-size: 100%;
+        padding-top: 2%;
+        margin: 0;
+    }
+
+    /* SECTION 2 */
+    .project_1, .project_2, .project_3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 6%;
+        margin-bottom: 5%;
+    }
+    .div_parcours {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .parcours_img {
+        padding: 5% 0;
+        text-align: center;
+    }
+    .parcours_img img {
+        width: 30vw;
+    }
+
+    .parcours_about_me {
+        margin-left: 5%;
+    }
+    .parcours h2 {
+        font-size: 150%;
+        color: #F4D06F;
+    }
+    .parcours button {
+        display: inline-block;
+        border: 5px solid #F5A9B8;
+        background-color: #000111;
+        color: #F5A9B8;
+        padding: 1%;
+        font-size: 75%;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 20%;
+    }
+
+    .parcours button a {
+        color: #F5A9B8;
+        text-decoration: none;
+        font-family: Space Grotesk;
+    }
+    .parcours button:hover {
+        background-color: #000111; 
+        color: #F5A9B8; 
+        transform: scale(1.1);
+    }
+    .parcours h3 {
+        font-size: 150%;
+        color: #5BCEFA;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .parcours p {
+        font-size: 75%;
+    }
+    .parcours h6 {
+        font-size: 75%;
+        color: #5BCEFA;
+        padding-top: 0;
+        margin-top: 0;
+        font-weight: lighter;
+    }
+    .parcours_about_me img {
+        width: 7%;
+        padding: 1%;
+    }
+
+    /* SECTION 3 */
+    .title_project p {
+        margin-top: 10%;
+        text-align: center;
+        font-size: 100%;
+        font-weight: bold;
+    }
+    .title_project h2 {
+        text-align: center;
+        font-size: 200%;
+        margin-top: 0;
+        color: #F5A9B8;
+    }
+    .project_1,
+    .project_2,
+    .project_3 {
+        display: flex;
+        flex-direction: column;
+        padding: 0 6%;
+        margin-bottom: 5%;
+    }
+    .project_1 img,
+    .project_2 img,
+    .project_3 img {
+        order: -1;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .project_1 .project1_description,
+    .project_2 .project2_description,
+    .project_3 .project3_description {
+        order: 1;
+    }
+    .project_1 .project1_description h3,
+    .project_2 .project2_description h3,
+    .project_3 .project3_description h3 {
+        font-size: 100%;
+        color: #5BCEFA;
+    }
+    .project_1 .project1_description p,
+    .project_2 .project2_description p,
+    .project_3 .project3_description p {
+        font-size: 75%;
+    }
+
+    /* SECTION CONTACT */
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact h4 {
+        text-align: center;
+        font-size: 150%;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .contact h2 {
+        font-size: 300%;
+        color: #5BCEFA;
+        margin-top: 0;
+        text-align: center;
+    }
+    .contact p {
+        padding: 0 10%;
+        text-align: center;
+        margin-top: 0;
+    }
+    .contact button {
+        display: inline-block;
+        border: 5px solid #F5A9B8;
+        background-color: #000111;
+        color: #F5A9B8;
+        padding: 1%;
+        font-size: 75%;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 50%;
+    }
+
+    /* FORMULAIRE */
+    form {
+        width: 100%;
+        max-width: 600px;
+        margin: 0;
+        background-color: #0c0b1d;
+        border: 5px solid #F4D06F;
+        padding: 0 10% 5% 5%;
+        margin-top: 5%;
+    }
+    form h3 {
+        color: #F4D06F;
+        font-size: 200%;
+        text-align: center;
+    }
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2%;
+    }
+    .form-control {
+        width: 100%;
+        padding: 2%;
+        background-color: #7f6c42;
+        border: none; 
+        border-radius: 5px;
+        font-family: 'Space Grotesk', sans-serif;
+        color: #ede8d0;
+    }
+    .textarea {
+        min-height: 150px;
+    }
+    .form_button {
+        text-align: center;
+    }
+    .form_button .btn {
+        border: 5px solid #F4D06F;
+        background-color: #000111;
+        color: #F4D06F;
+        padding:  2%;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 50%;
+        margin: 5%;
+    }
+
+    /* FOOTER */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        text-align: center;
+    }
+    footer p {
+        font-size: 75%;
+    }
+    footer nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+    }
+    footer nav ul li {
+        font-size: 150%;
+    }
+    footer nav ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+}

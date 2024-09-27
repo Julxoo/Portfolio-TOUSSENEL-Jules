@@ -1,0 +1,306 @@
+@media only screen and (min-width: 1280px) {
+    /* HEADER */
+    .logo_header i {
+        font-size: 500%;
+        padding-left: 40%;
+    }
+    .enveloppe_header a {
+        font-size: 500%;
+        padding-left: 40%;
+    }
+
+    .logo_header i:hover, .enveloppe_header a:hover {
+        transform: rotate(10deg);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    /* SECTION 1 */
+    .whoami {
+        margin: 0  auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .whoami h1 {
+        color: #5BCEFA;
+        font-size: 900%;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .whoami .lower_p {
+        text-align: center;
+        font-size: 200%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .whoami .bold_p {
+        font-weight: bold;
+        text-align: center;
+        font-size: 200%;
+        padding-top: 2%;
+        margin: 0;
+    }
+
+    /* SECTION 2 */
+    .div_parcours {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10%;
+    }
+    .parcours_img {
+        padding: 5% 0;
+        text-align: center;
+    }
+     img {
+        width: 20vw;
+     }
+
+    .parcours_about_me {
+        margin-left: 5%;
+    }
+    .parcours h2 {
+        font-size: 300%;
+        color: #F4D06F;
+    }
+    .parcours button {
+        border: 5px solid #F5A9B8;
+        background-color: #000111;
+        color: #F5A9B8;
+        font-family: Space Grotesk;
+        padding: 10px 30px;
+        font-size: 150%;
+        margin-top: 5%;
+        transition: transform 0.5s;
+    }
+    .parcours button a {
+        color: #F5A9B8;
+        text-decoration: none;
+        font-family: Space Grotesk;
+    }
+    .parcours button:hover {
+        background-color: #000111; 
+        color: #F5A9B8; 
+        transform: scale(1.1);
+    }
+    .parcours h3 {
+        font-size: 300%;
+        color: #5BCEFA;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .parcours p {
+        font-size: 100%;
+    }
+
+    .parcours h6 {
+        font-size: 100%;
+        color: #5BCEFA;
+        padding-top: 0;
+        margin-top: 0;
+        font-weight: lighter;
+    }
+    .parcours_about_me img {
+        width: 10%;
+        padding: 1%;
+    }
+
+    /* SECTION 3 */
+
+    .title_project p {
+        margin-top: 10%;
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+    }
+    .title_project h2 {
+        text-align: center;
+        font-size: 400%;
+        margin-top: 0;
+        color: #F5A9B8;
+    }
+
+    .project_1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 6%;
+        margin-bottom: 5%;
+    }
+    .project_1 .project1_description h3 {
+        font-size: 200%;
+        padding-right: 10%;
+        color: #5BCEFA;
+    }
+    .project_1 .project1_description p {
+        font-size: 100%;
+        padding-right: 10%;
+    }
+    .project_2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 6%;
+        margin-bottom: 5%;
+    }
+    .project_2 .project2_description h3 {
+        font-size: 200%;
+        padding-left: 10%;
+        color: #F4D06F;
+    }
+    .project_2 .project2_description p {
+        font-size: 100%;
+        padding-left: 10%;
+    }
+    .project_2 .project2_img {
+        margin: auto 0;
+    }
+    .project_3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 6%;
+        margin-bottom: 5%;
+    }
+    .project_3 .project3_description h3 {
+        font-size: 200%;
+        padding-right: 10%;
+        color: #F5A9B8;
+    }
+    .project_3 .project3_description p {
+        font-size: 100%;
+        padding-right: 10%;
+    }
+    .project_3 .project3_img {
+        margin: auto 0;
+    }
+
+      /* SECTION 3 */
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact h4 {
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .contact h2 {
+        font-size: 400%;
+        color: #5BCEFA;
+        margin-top: 0;
+    }
+
+    .contact p {
+        padding: 0 10%;
+        text-align: center;
+        margin-top: 0;
+    }
+    .contact button {
+        display: inline-block;
+        border: 5px solid #F5A9B8;
+        background-color: #000111;
+        color: #F5A9B8;
+        padding: 1%;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 25%;
+    }
+
+    form {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #0c0b1d;
+        border: 5px solid #F4D06F;
+        padding: 2% 5%;
+        margin-top: 5%;
+    }
+
+    form h3 {
+        color: #F4D06F;
+        font-size: 300%;
+        text-align: center;
+    }
+    
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3%;
+
+    }
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        width: 46%;
+        gap: 2%;
+    }
+    
+    .form-control {
+        width: 100%;
+        padding: 2% 0;
+        margin-bottom: 2%;
+        background-color: #7f6c42;
+        border: none; 
+        border-radius: 5px;
+        font-family: 'Space Grotesk', sans-serif;
+        color: #ede8d0;
+    }
+    .textarea {
+        min-height: 150px;
+    }
+    form .btn {
+        display: inline-block;
+        border: 5px solid #F4D06F;
+        background-color: #000111;
+        color: #F4D06F;
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 50%;
+    }
+    
+    
+    .form_button {
+        text-align: center;
+    }
+    /* FOOTER */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        text-align: center;
+    }
+    footer p {
+        font-size: 60%;
+    }
+    footer nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+    footer nav ul li {
+        font-size: 120%;
+    }
+    footer nav ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+}

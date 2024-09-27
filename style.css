@@ -1,0 +1,44 @@
+body {
+    background-color: #000111;
+    font-family: Space Grotesk;
+    color: #ede8d0;
+}
+
+header nav ul{
+    width: 90%;
+    margin: 1% auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-radius: 15px;
+    position: fixed;
+}
+
+.logo_header {padding-left: 3%;}
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 8% 0; 
+}
+
+ul {list-style-type: none;}
+
+
+p {text-align: justify;}
+
+/* SURBRILLANCE *//* SURBRILLANCE *//* SURBRILLANCE *//* SURBRILLANCE *//* SURBRILLANCE */
+.enveloppe_header a, 
+.parcours h2 
+{text-shadow: 0 0 20px #F4D06F;}
+
+.logo_header i, 
+.title_project h2 
+{text-shadow: 0 0 10px #F5A9B8;}
+
+.whoami h1 ,
+.parcours h3,
+.contact h2
+{text-shadow: 0 0 10px #5BCEFA;}
+/* SURBRILLANCE *//* SURBRILLANCE *//* SURBRILLANCE *//* SURBRILLANCE *//* SURBRILLANCE */
+
