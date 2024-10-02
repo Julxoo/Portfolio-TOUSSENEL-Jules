@@ -172,6 +172,10 @@
     .project_3 .project3_img {
         margin: auto 0;
     }
+    .project1_img {
+        display: flex;
+        align-items: center;
+    }
 
       /* SECTION 3 */
     .contact {
